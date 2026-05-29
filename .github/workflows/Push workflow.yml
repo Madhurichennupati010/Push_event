@@ -1,0 +1,14 @@
+name: push workflow
+on:
+  push:
+jobs:
+   demo:
+     runs-on: ubuntu-latest
+   
+     steps:
+      - name : print message
+        run : echo "printed successfully"
+
+    
+
+
